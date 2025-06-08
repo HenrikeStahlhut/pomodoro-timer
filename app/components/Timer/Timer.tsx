@@ -125,7 +125,7 @@ const Timer = ({ initialMinutes = 25, onComplete }: TimerProps) => {
       </div>
       <Typography
         variant={"h1"}
-        className="text-8xl text-white
+        className="text-8xl text-white font-mono
 "
       >
         {formatTime(timeLeft)}
