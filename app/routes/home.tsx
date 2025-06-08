@@ -1,3 +1,4 @@
+import Timer from "@/components/Timer/Timer";
 import type { Route } from "./+types/home";
 
 export function meta({}: Route.MetaArgs) {
@@ -8,5 +9,9 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <>Test</>;
+  return (
+    <div className="flex items-center justify-center min-h-screen">
+      <Timer />
+    </div>
+  );
 }
