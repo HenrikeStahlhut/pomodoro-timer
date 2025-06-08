@@ -21,7 +21,7 @@ const buttonVariants = cva(
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
         pomodoro:
-          "rounded-full border border-gray-400 px-6 py-3 hover:border-gray-600 transition-colors text-lg",
+          "rounded-full border border-white px-6 py-3 text-lg text-white",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",

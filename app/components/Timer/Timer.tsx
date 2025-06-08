@@ -15,7 +15,11 @@ const Timer = () => {
           long break
         </Button>
       </div>
-      <Typography variant={"h1"} className="text-8xl">
+      <Typography
+        variant={"h1"}
+        className="text-8xl text-white
+"
+      >
         25:00
       </Typography>
     </div>
