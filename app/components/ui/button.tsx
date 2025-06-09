@@ -21,9 +21,9 @@ const buttonVariants = cva(
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
         timer:
-          "rounded-full border border-white px-6 py-3 text-lg text-white cursor-pointer",
+          "rounded-lg border border-white px-6 py-3 text-lg text-white cursor-pointer",
         timerActive:
-          "rounded-full bg-white px-6 py-3 text-lg text-emerald-800 cursor-pointer",
+          "rounded-lg bg-white px-6 py-3 text-lg text-emerald-800 cursor-pointer",
         pomodoroControl: "text-white cursor-pointer",
       },
       size: {
