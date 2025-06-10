@@ -8,7 +8,7 @@ interface AppContextType {
 
 const themeDefault = "forest";
 
-const AppContext = createContext<AppContextType>({
+export const AppContext = createContext<AppContextType>({
   currentTheme: themeDefault,
   setCurrentTheme: () => {},
   handleChangeTheme: () => {},
